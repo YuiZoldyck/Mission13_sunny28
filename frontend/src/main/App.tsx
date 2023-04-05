@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { IndexPage } from './pages/IndexPage';
-import { PodcastPage } from './pages/PodcastPage';
-import { MoviesPage } from './pages/MoviesPage';
+import { IndexPage } from '../pages/IndexPage';
+import { PodcastPage } from '../pages/PodcastPage';
+import { MoviesPage } from '../pages/MoviesPage';
 import React from 'react';
 
 function App() {
